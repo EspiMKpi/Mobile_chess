@@ -1,0 +1,33 @@
+# Phân quyền sở hữu file (xem kế hoạch chia việc).
+# TODO: thay @N04_GITHUB_USERNAME / @N11_GITHUB_USERNAME bằng tài khoản GitHub thật.
+# Dòng khớp sau cùng có hiệu lực.
+
+# ---- Mặc định: cả hai cùng review (hợp đồng chung) ----
+*                                   @N04_GITHUB_USERNAME @N11_GITHUB_USERNAME
+
+# ---- N04 - Nguyễn Đại Dũng: tài khoản, online list, thách đấu, BXH ----
+/src/model/ObjectWrapper.java       @N04_GITHUB_USERNAME @N11_GITHUB_USERNAME
+/src/model/IPAddress.java           @N04_GITHUB_USERNAME
+/src/model/Player.java              @N04_GITHUB_USERNAME
+/src/model/PlayerStat.java          @N04_GITHUB_USERNAME
+/src/model/PlayerRanking.java       @N04_GITHUB_USERNAME
+/src/model/Match.java               @N04_GITHUB_USERNAME
+/src/model/MatchResult.java         @N04_GITHUB_USERNAME
+/src/model/MatchStartInfo.java      @N04_GITHUB_USERNAME
+/src/server/                        @N04_GITHUB_USERNAME
+/src/client/                        @N04_GITHUB_USERNAME
+/db/01_core.sql                     @N04_GITHUB_USERNAME
+
+# ---- N11 - Nguyễn Tiến Dũng: nước đi, kết thúc theo luật/hết giờ, AI ----
+/src/model/MatchMove.java           @N11_GITHUB_USERNAME
+/src/model/MoveRequest.java         @N11_GITHUB_USERNAME
+/src/model/MoveInfo.java            @N11_GITHUB_USERNAME
+/src/model/GameResult.java          @N11_GITHUB_USERNAME
+/src/server/control/ChessReferee.java    @N11_GITHUB_USERNAME
+/src/server/control/MoveTimeoutTask.java @N11_GITHUB_USERNAME
+/src/server/dao/MatchMoveDAO.java   @N11_GITHUB_USERNAME
+/src/client/view/ChessBoardPanel.java    @N11_GITHUB_USERNAME
+/src/client/view/PromotionDialog.java    @N11_GITHUB_USERNAME
+/src/client/view/ai/                @N11_GITHUB_USERNAME
+/src/com/chess/                     @N11_GITHUB_USERNAME
+/db/02_match_move.sql               @N11_GITHUB_USERNAME
