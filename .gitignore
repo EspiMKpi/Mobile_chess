@@ -1,0 +1,22 @@
+# Build output
+bin/
+out/
+*.class
+sources.txt
+
+# Cấu hình chứa mật khẩu thật
+config/db.properties
+
+# Thư viện tải về
+lib/*.jar
+
+# IDE / OS
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+nbproject/private/
+.DS_Store
+Thumbs.db
